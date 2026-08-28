@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Preety Cake Factory — freshly baked cakes for birthdays, anniversaries and special moments.">
+  <title>Preety Cake Factory | Cakes Made With Love</title>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="Preety Cake Factory home">
+        <span class="brand-icon" aria-hidden="true">🍰</span>
+        <span><strong>Preety</strong><small>Cake Factory</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Toggle navigation</span>☰
+      </button>
+      <nav id="site-nav" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#catalog">Catalog</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#about">About</a>
+        <a href="#testimonials">Reviews</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-order" href="https://wa.me/919876543210?text=Hi%20Preety%20Cake%20Factory%2C%20I%27d%20like%20to%20place%20an%20order." target="_blank" rel="noopener">Order on WhatsApp</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="home" class="hero" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Freshly baked • Made with love</p>
+          <h1 id="hero-title">Making your moments <span>sweeter.</span></h1>
+          <p class="hero-text">Beautiful cakes for birthdays, anniversaries, celebrations and all the little moments worth remembering.</p>
+          <div class="button-row">
+            <a class="button primary" href="#catalog">Explore Cakes</a>
+            <a class="button secondary" href="https://wa.me/919876543210?text=Hi%20Preety%20Cake%20Factory%2C%20I%27d%20like%20to%20place%20an%20order." target="_blank" rel="noopener">Order Now</a>
+          </div>
+        </div>
+        <div class="hero-art">
+          <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=1000&q=85"
+               alt="Pink and white decorated celebration cake">
+        </div>
+      </div>
+    </section>
+
+    <section class="features" aria-label="Why choose Preety Cake Factory">
+      <div class="container feature-grid">
+        <article><span aria-hidden="true">🎂</span><h2>Fresh & Premium</h2><p>Quality ingredients and careful baking for a delicious finish.</p></article>
+        <article><span aria-hidden="true">♥</span><h2>Made With Love</h2><p>Every cake is prepared with care for your special moments.</p></article>
+        <article><span aria-hidden="true">✎</span><h2>Custom Made</h2><p>Share your idea and we can turn it into a custom cake.</p></article>
+        <article><span aria-hidden="true">🚚</span><h2>On-Time Delivery</h2><p>Planned delivery for your important celebrations.</p></article>
+      </div>
+    </section>
+
+    <section id="catalog" class="section" aria-labelledby="catalog-title">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Choose your favourite</p>
+          <h2 id="catalog-title">Our Cake Catalog</h2>
+          <p>Sample products for now — you can replace the names, prices and photos later.</p>
+        </div>
+        <div class="filters" role="group" aria-label="Filter cakes">
+          <button class="filter active" type="button" data-filter="all" aria-pressed="true">All Cakes</button>
+          <button class="filter" type="button" data-filter="birthday" aria-pressed="false">Birthday</button>
+          <button class="filter" type="button" data-filter="anniversary" aria-pressed="false">Anniversary</button>
+          <button class="filter" type="button" data-filter="custom" aria-pressed="false">Custom</button>
+          <button class="filter" type="button" data-filter="cupcake" aria-pressed="false">Cupcakes</button>
+          <button class="filter" type="button" data-filter="photo" aria-pressed="false">Photo Cakes</button>
+        </div>
+
+        <div class="cake-grid">
+          <article class="cake-card" data-category="birthday">
+            <img src="https://images.unsplash.com/photo-1571115177098-24ec42ed204d?auto=format&fit=crop&w=700&q=80" alt="Chocolate cake with chocolate frosting">
+            <div class="card-body"><h3>Choco Delight</h3><p class="price">₹699 onwards</p><a class="button small" href="https://wa.me/919876543210?text=Hi%2C%20I%27m%20interested%20in%20the%20Choco%20Delight%20cake." target="_blank" rel="noopener">Order</a></div>
+          </article>
+          <article class="cake-card" data-category="birthday">
+            <img src="https://images.unsplash.com/photo-1586788224331-947f68671cf1?auto=format&fit=crop&w=700&q=80" alt="Red velvet celebration cake">
+            <div class="card-body"><h3>Red Velvet Love</h3><p class="price">₹799 onwards</p><a class="button small" href="https://wa.me/919876543210?text=Hi%2C%20I%27m%20interested%20in%20the%20Red%20Velvet%20Love%20cake." target="_blank" rel="noopener">Order</a></div>
+          </article>
+          <article class="cake-card" data-category="birthday">
+            <img src="https://images.unsplash.com/photo-1519915028121-7d3463d20b13?auto=format&fit=crop&w=700&q=80" alt="Mango topped celebration cake">
+            <div class="card-body"><h3>Mango Bliss</h3><p class="price">₹699 onwards</p><a class="button small" href="https://wa.me/919876543210?text=Hi%2C%20I%27m%20interested%20in%20the%20Mango%20Bliss%20cake." target="_blank" rel="noopener">Order</a></div>
+          </article>
+          <article class="cake-card" data-category="custom">
+            <img src="https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?auto=format&fit=crop&w=700&q=80" alt="Decorated chocolate drip cake">
+            <div class="card-body"><h3>Chocolate Overload</h3><p class="price">₹899 onwards</p><a class="button small" href="https://wa.me/919876543210?text=Hi%2C%20I%27m%20interested%20in%20the%20Chocolate%20Overload%20cake." target="_blank" rel="noopener">Order</a></div>
+          </article>
+          <article class="cake-card" data-category="anniversary">
+            <img src="https://images.unsplash.com/photo-1535141192574-5d4897c12636?auto=format&fit=crop&w=700&q=80" alt="Elegant white and gold anniversary cake">
+            <div class="card-body"><h3>Golden Anniversary</h3><p class="price">₹999 onwards</p><a class="button small" href="https://wa.me/919876543210?text=Hi%2C%20I%27m%20interested%20in%20the%20Golden%20Anniversary%20cake." target="_blank" rel="noopener">Order</a></div>
+          </article>
+          <article class="cake-card" data-category="custom">
+            <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=700&q=80" alt="Pink floral decorated cake">
+            <div class="card-body"><h3>Elegant Rose</h3><p class="price">₹799 onwards</p><a class="button small" href="https://wa.me/919876543210?text=Hi%2C%20I%27m%20interested%20in%20the%20Elegant%20Rose%20cake." target="_blank" rel="noopener">Order</a></div>
+          </article>
+          <article class="cake-card" data-category="custom">
+            <img src="https://images.unsplash.com/photo-1599785209707-a456fc1337bb?auto=format&fit=crop&w=700&q=80" alt="Colorful decorated unicorn-style cake">
+            <div class="card-body"><h3>Unicorn Fantasy</h3><p class="price">₹899 onwards</p><a class="button small" href="https://wa.me/919876543210?text=Hi%2C%20I%27m%20interested%20in%20the%20Unicorn%20Fantasy%20cake." target="_blank" rel="noopener">Order</a></div>
+          </article>
+          <article class="cake-card" data-category="photo">
+            <img src="https://images.unsplash.com/photo-1558301211-0d8c8ddee6ec?auto=format&fit=crop&w=700&q=80" alt="Decorated celebration cake suitable for a photo cake">
+            <div class="card-body"><h3>Photo Cake</h3><p class="price">₹749 onwards</p><a class="button small" href="https://wa.me/919876543210?text=Hi%2C%20I%27m%20interested%20in%20a%20Photo%20Cake." target="_blank" rel="noopener">Order</a></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="section soft" aria-labelledby="gallery-title">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">A little sweetness</p><h2 id="gallery-title">Our Creations</h2></div>
+        <div class="gallery-grid">
+          <img src="https://images.unsplash.com/photo-1603532648955-039310d9ed75?auto=format&fit=crop&w=800&q=80" alt="Chocolate cake decorated with strawberries">
+          <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?auto=format&fit=crop&w=800&q=80" alt="Colorful decorated cake">
+          <img src="https://images.unsplash.com/photo-1486427944299-d1955d23e34d?auto=format&fit=crop&w=800&q=80" alt="Assorted decorated cupcakes">
+          <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80" alt="Pink decorated celebration cake">
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <div><p class="eyebrow">About us</p><h2 id="about-title">Baked for your happiest moments.</h2></div>
+        <div><p>Preety Cake Factory is a sample bakery website ready for your real business information. From birthdays to weddings, we create cakes that make every celebration feel extra special.</p><p><strong>Tip:</strong> Replace this text with your actual story, speciality and delivery area.</p></div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="section soft" aria-labelledby="reviews-title">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">Happy customers</p><h2 id="reviews-title">What People Say</h2></div>
+        <div class="review-grid">
+          <blockquote><p>“The cake looked beautiful and tasted even better. Everyone loved it!”</p><cite>— Sample Customer</cite></blockquote>
+          <blockquote><p>“Perfect for our celebration. The custom design was exactly what we wanted.”</p><cite>— Sample Customer</cite></blockquote>
+          <blockquote><p>“Fresh, delicious and beautifully packed. Will order again.”</p><cite>— Sample Customer</cite></blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section" aria-labelledby="contact-title">
+      <div class="container contact-card">
+        <div><p class="eyebrow">Let's make it special</p><h2 id="contact-title">Ready to order your cake?</h2><p>Message us on WhatsApp and tell us your cake idea, size and preferred date.</p></div>
+        <div class="contact-actions">
+          <a class="button primary" href="https://wa.me/919876543210?text=Hi%20Preety%20Cake%20Factory%2C%20I%27d%20like%20to%20place%20an%20order." target="_blank" rel="noopener">WhatsApp Us</a>
+          <a class="contact-link" href="tel:+919876543210">Call: +91 98765 43210</a>
+          <p>Mon–Sat: 9:00 AM–8:00 PM<br>Sunday: 10:00 AM–6:00 PM</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-wrap">
+      <p>© 2026 Preety Cake Factory. All rights reserved.</p>
+      <a href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
